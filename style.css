@@ -1,4 +1,32 @@
 body {
+	font-family: Arial, sans-serif;
+  }
+  
+  .container {
+	max-width: 960px;
+	margin: 0 auto;
+  }
+  
+  h1 {
+	text-align: center;
+  }
+  
+  .row {
+	display: flex;
+  }
+  
+  .col-60 {
+	width: 60%;
+	padding: 20px;
+	box-sizing: border-box;
+  }
+  
+  .col-40 {
+	width: 40%;
+	padding: 20px;
+	box-sizing: border-box;
+  }
+/* body {
 	font: Arial;
 }
 
@@ -36,4 +64,4 @@ body {
 .clicked {
 	stroke: black;
 	stroke-width: 2px;
-}
+} */
