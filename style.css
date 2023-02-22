@@ -1,0 +1,39 @@
+body {
+	font: Arial;
+}
+
+.headers {
+	text-align: center;
+}
+  
+.columns {
+	display: flex;
+}
+  
+.left {
+	width: 60%;
+}
+  
+.right {
+	width: 40%;
+}
+
+#point {
+	fill: blue;
+	stroke: none;
+}
+
+#x-axis, #y-axis {
+	stroke: black;
+	stroke-width: 2px;
+}
+
+.highlight {
+	fill: red;
+	stroke: none;
+}
+
+.clicked {
+	stroke: black;
+	stroke-width: 2px;
+}
